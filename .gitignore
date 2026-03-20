@@ -1,0 +1,49 @@
+# ==== macOS ====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==== JetBrains IDE (PyCharm) ====
+.idea/
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ==== Virtual Environment ====
+venv/
+.venv/
+env/
+.env/
+
+# ==== Data files (large binary / pickle) ====
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.csv
+*.xlsx
+*.xls
+
+# ==== Jupyter Notebook ====
+.ipynb_checkpoints/
+
+# ==== Logs ====
+*.log
+
+# ==== Misc ====
+.pytest_cache/
+.mypy_cache/
+*.swp
+*.swo
+*~
